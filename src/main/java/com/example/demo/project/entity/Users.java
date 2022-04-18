@@ -11,11 +11,13 @@ import javax.persistence.Table;
 
 @Entity
 @Table
-@Data
 @NoArgsConstructor
 @Setter
 @Getter
-//here all setter and getter genareted automatically
+////
+//
+//
+
 public class Users {
     @Id
     private int id;
