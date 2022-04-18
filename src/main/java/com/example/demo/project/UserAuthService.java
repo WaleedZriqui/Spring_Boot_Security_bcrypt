@@ -21,5 +21,6 @@ public class UserAuthService implements UserDetailsService {
             throw new UsernameNotFoundException("User 404");
         }
         return new UserPrinciple(user);
+
     }
 }

@@ -15,7 +15,7 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @Setter
 @Getter
-
+//here all setter and getter genareted automatically
 public class Users {
     @Id
     private int id;
